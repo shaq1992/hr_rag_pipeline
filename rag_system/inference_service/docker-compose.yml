@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  inference_api:
+    build: .
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./src:/app/src
+      - huggingface_models:/root/.cache/huggingface
+    networks:
+      - rag_net
+
+volumes:
+  huggingface_models:
+
+networks:
+  rag_net:
+    external: true

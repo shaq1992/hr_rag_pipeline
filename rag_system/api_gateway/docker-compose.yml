@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  rag_api:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/app/src
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    networks:
+      - rag_net
+
+networks:
+  rag_net:
+    external: true
