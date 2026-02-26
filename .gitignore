@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 logs/
 ingestion/qdrant_storage/
+**/.env
+**/logs/
+rag_events.jsonl
