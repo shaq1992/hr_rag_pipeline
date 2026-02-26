@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  evaluator:
+    build: .
+    volumes:
+      - ../rag_system/api_gateway/logs:/app/logs
+    env_file:
+      - ../rag_system/api_gateway/.env
+    networks:
+      - rag_net
+
+networks:
+  rag_net:
+    external: true

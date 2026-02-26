@@ -1,0 +1,107 @@
+[
+  {
+    "id": "TC1",
+    "difficulty": "easy",
+    "query": "What is the minimum French proficiency level required for a bilingual designated position?",
+    "expected_facts": ["Advanced level", "based on the French Language Oral Proficiency Scale"],
+    "expected_source": "8.04 French Language Proficiency Evaluations.pdf"
+  },
+  {
+    "id": "TC2",
+    "difficulty": "medium",
+    "query": "What should I do if I see something concerning on social media about a client?",
+    "expected_facts": ["Speak with your supervisor or manager", "Do not post or share it"],
+    "expected_source": "5.07 Social Media Dec 2020_0.pdf"
+  },
+  {
+    "id": "TC3",
+    "difficulty": "hard",
+    "query": "If I take a leave of absence, what is the difference in Long Term Disability insurance coverage between a paid leave and an unpaid leave?",
+    "expected_facts": ["Paid leave: continued for a maximum of 24 months", "Unpaid leave: continued for a maximum of 12 months"],
+    "expected_source": "5.04 Flexiblework Arrangements.pdf"
+  },
+  {
+    "id": "TC4",
+    "difficulty": "medium",
+    "query": "How does the policy define Violence?",
+    "expected_facts": ["Threatened, attempted or actual exercise of physical force", "Causes or can cause injury", "Threatening statement or behavior"],
+    "expected_source": "9.05 Violence in the Workplace Policy.pdf"
+  },
+  {
+    "id": "TC5",
+    "difficulty": "easy",
+    "query": "What is the best restaurant to eat at near the office?",
+    "expected_facts": ["Out of scope", "System should decline to answer"],
+    "expected_source": "None"
+  },
+  {
+    "id": "TC6",
+    "difficulty": "easy",
+    "query": "What are the core public service values that the diversity and inclusion policy is rooted in?",
+    "expected_facts": ["respect", "integrity", "accountability", "excellence"],
+    "expected_source": "11.02 Diversity and Inclusion Policy English.pdf"
+  },
+  {
+    "id": "TC7",
+    "difficulty": "medium",
+    "query": "When is the Diversity and Inclusion Policy scheduled to be reviewed and evaluated?",
+    "expected_facts": ["after two years", "to determine if Government has made progress"],
+    "expected_source": "11.02 Diversity and Inclusion Policy English.pdf"
+  },
+  {
+    "id": "TC8",
+    "difficulty": "easy",
+    "query": "What is the normal age of retirement under the Public Sector Pension Plan Act?",
+    "expected_facts": ["65 years"],
+    "expected_source": "12.01 Public Sector Pension Plan Act.pdf"
+  },
+  {
+    "id": "TC9",
+    "difficulty": "hard",
+    "query": "If a member dies before completing two years of pensionable service, what happens to their contributions?",
+    "expected_facts": ["Refunded to the member on termination", "Refunded to the member's personal representative on death", "Plus interest calculated at Bank of Canada 5-year Guaranteed Investment Certificate Rate"],
+    "expected_source": "12.01 Public Sector Pension Plan Act.pdf"
+  },
+  {
+    "id": "TC10",
+    "difficulty": "medium",
+    "query": "What is considered a Safety-Sensitive Position under the Drug and Alcohol policy?",
+    "expected_facts": ["Potential to cause an incident", "Risk to health, safety or security", "Operating motorized equipment", "Providing direct client or clinical care"],
+    "expected_source": "9.08 Drug, Alcohol and Medication Policy.pdf"
+  },
+  {
+    "id": "TC11",
+    "difficulty": "hard",
+    "query": "What exact steps must a supervisor take if they have reasonable cause to believe an employee is not fit for work?",
+    "expected_facts": ["Consult with Human Resource Manager", "Remove the Employee to a safe and private place", "Consult privately with the Employee", "Document observations on an Incident Report form"],
+    "expected_source": "9.08 Drug, Alcohol and Medication Policy.pdf"
+  },
+  {
+    "id": "TC12",
+    "difficulty": "easy",
+    "query": "Who is responsible for paying the costs associated with obtaining a Criminal Record Check for a new hire?",
+    "expected_facts": ["The candidate", "The new hire"],
+    "expected_source": "3.09 Criminal Records Check Policy.pdf"
+  },
+  {
+    "id": "TC13",
+    "difficulty": "medium",
+    "query": "What happens if a criminal record check indicates an individual might have a criminal record?",
+    "expected_facts": ["Human Resources Manager or designate shall request the individual provide a criminal abstract", "To obtain further information"],
+    "expected_source": "3.09 Criminal Records Check Policy.pdf"
+  },
+  {
+    "id": "TC14",
+    "difficulty": "medium",
+    "query": "Are government employees who are not Designated Users allowed to use social media during work time?",
+    "expected_facts": ["No", "Prohibited from accessing social media during Work Time"],
+    "expected_source": "5.07 Social Media Dec 2020_0.pdf"
+  },
+  {
+    "id": "TC15",
+    "difficulty": "hard",
+    "query": "According to the Social Media policy, what is the difference between Libel and Slander?",
+    "expected_facts": ["Libel is expressed in writing, a picture, a sign, or electronic broadcast", "Slander is in an oral or transitory form like speech or gesture"],
+    "expected_source": "5.07 Social Media Dec 2020_0.pdf"
+  }
+]

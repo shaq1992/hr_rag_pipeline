@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+qdrant-client
+google-genai
+unstructured-client
+FlagEmbedding
+transformers<5.0.0
+torch
